@@ -19,7 +19,7 @@ main{
 
 header{
     position: fixed;
-    z-index: 1;
+    z-index: 6;
     width: 100%;
     top: 0;
 
@@ -590,12 +590,8 @@ footer a:hover{
     /* *{
         overflow-x: hidden;
     } */
-    #logo_footer{
-        display: block;
-        width: auto;
-        height: 70px;
-        margin-top: 15px;
-        margin-left: 20px;
+    footer{
+        display: none;
     }
     #sobre-nos_footer{
         width: 250px;
